@@ -29,25 +29,32 @@ This project helps users explore destinations, plan trips, and get personalized 
    Create and activate a virtual environment:
 
 2.Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate   # On Linux/Mac
-venv\Scripts\activate      # On Windows
+  ```bash
+  python -m venv venv
+  source venv/bin/activate   # On Linux/Mac
+  venv\Scripts\activate      # On Windows
+ ```
 
 3.Install dependencies:
+  ```
 pip install -r requirements.txt
+  ```
 
 4.Set up your Gemini API Key:
 
 Create a .env file in the project root
 
 Add your key:
+  ```
 GEMINI_API_KEY=your_api_key_here
+  ```
 
 ▶️ Usage
 
-Run the Streamlit app:
+Run the Streamlit app:  
+  ```
 streamlit run app.py
-
+  ```
 📂 Project Structure
 Travel-assistant/
 app.py              # Main Streamlit app
@@ -81,5 +88,6 @@ Streamlit for the fast and interactive UI
 📜 License
 
 This project is open-source and available under the MIT License.
+
 
 
