@@ -1,69 +1,84 @@
-# 🧳 AI-Powered Travel Assistant (Gemini API)
+# 🌍 Travel Assistant with Gemini API
 
-An intelligent conversational **Travel Assistant** built with **Google Gemini API**.  
-This project helps users plan trips, discover destinations, and get personalized recommendations — all through natural, context-aware conversations.  
+An AI-powered conversational travel assistant built with **Google Gemini API** and **Streamlit**.  
+This project helps users explore destinations, plan trips, and get personalized recommendations through natural conversations.
 
 ---
 
 ## ✨ Features
-- 💬 Conversational travel assistant using **Gemini AI**  
-- 🌍 Destination search and personalized suggestions  
-- 🏨 Recommendations for places, food, and activities  
-- ⚡ Context-aware chat with real-time responses  
-- 🎯 Built in **Python** with a clean, modular design  
+- 🧳 **Travel Planning** – Get suggestions for destinations, activities, and itineraries.  
+- 💬 **Conversational Interface** – Powered by **Gemini API** for natural, context-aware responses.  
+- ⚡ **Streamlit UI** – Simple, interactive, and user-friendly web interface.  
+- 🌍 **Smart Recommendations** – Provides travel tips, location info, and activity ideas.  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Python 3.10+**  
-- **Google Gemini API** (`google-generativeai`)  
-- **Streamlit** (for frontend UI)  
-- **dotenv** (for managing API keys)  
+- **Python** 🐍  
+- **Google Gemini API** 🤖  
+- **Streamlit** 🚀  
 
 ---
 
-## 🚀 Getting Started
+## 📦 Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/Travel-assistant.git
-cd Travel-assistant
-2. Create a Virtual Environment
-bash
-Copy
-Edit
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/dheerajkalidindhi/Travel-assistant.git
+   cd Travel-assistant
+   Create and activate a virtual environment:
+
+2.Create and activate a virtual environment:
 python -m venv venv
-# Activate:
-# Windows:
-venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
-3. Install Dependencies
-bash
-Copy
-Edit
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+
+3.Install dependencies:
 pip install -r requirements.txt
-4. Add API Keys
-Create a .env file in the project root and add your Gemini API key:
 
-ini
-Copy
-Edit
-GEMINI_API_KEY=your_key_here
-5. Run the App
-bash
-Copy
-Edit
+4.Set up your Gemini API Key:
+
+Create a .env file in the project root
+
+Add your key:
+GEMINI_API_KEY=your_api_key_here
+
+▶️ Usage
+
+Run the Streamlit app:
 streamlit run app.py
-📸 Demo
-(Add screenshots or a short demo GIF of your travel assistant here!)
 
-📚 Reference
-This project was inspired by the “Build Real-World AI Applications with LLMs” course.
-Instead of OpenAI, it uses Google’s Gemini API for conversational intelligence.
+📂 Project Structure
+Travel-assistant/
+│── app.py              # Main Streamlit app
+│── requirements.txt    # Python dependencies
+│── .env.example        # Example API key file
+│── README.md           # Project documentation
+│── .gitignore          # Ignore venv & secrets
 
-🤝 Contributing
-Contributions are welcome! Fork the repo and submit a pull request with improvements.
+🌟 Demo Use Cases
+
+“Plan me a 5-day trip to Italy.”
+
+“What are the best things to do in Goa?”
+
+“Suggest budget-friendly travel destinations in Asia.”
+
+🙌 Acknowledgements
+
+Google Gemini API for powering the conversational AI
+
+Streamlit for the fast and interactive UI
+
+📌 Future Improvements
+
+🌐 Add live weather & hotel booking APIs
+
+🗺️ Integrate Google Maps for route planning
+
+🧾 Save/export itineraries as PDF
 
 📜 License
-This project is licensed under the MIT License.
+
+This project is open-source and available under the MIT License.
+
