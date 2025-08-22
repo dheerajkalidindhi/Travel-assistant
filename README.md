@@ -50,11 +50,11 @@ streamlit run app.py
 
 📂 Project Structure
 Travel-assistant/
-│── app.py              # Main Streamlit app
-│── requirements.txt    # Python dependencies
-│── .env.example        # Example API key file
-│── README.md           # Project documentation
-│── .gitignore          # Ignore venv & secrets
+app.py              # Main Streamlit app
+requirements.txt    # Python dependencies
+.env.example        # Example API key file
+README.md           # Project documentation
+.gitignore          # Ignore venv & secrets
 
 🌟 Demo Use Cases
 
@@ -81,4 +81,5 @@ Streamlit for the fast and interactive UI
 📜 License
 
 This project is open-source and available under the MIT License.
+
 
